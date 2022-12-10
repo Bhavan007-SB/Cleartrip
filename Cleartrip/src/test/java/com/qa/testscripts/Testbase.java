@@ -36,7 +36,8 @@ public class Testbase
 			Driver = new EdgeDriver();
 		  }
 	  CleartripPages driver=new CleartripPages(Driver);
-	  Driver.navigate().to(Url);;
+	  Driver.navigate().to(Url);
+	  System.out.Print("here changed your code");
 	  Thread.sleep(3000);
 	  CleartripPages.cancelbtn.click();
   }
