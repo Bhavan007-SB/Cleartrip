@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-09T15:52:57 IST" name="Suite" finished-at="2022-12-09T15:56:49 IST" duration-ms="232180">
+    <groups>
+    </groups>
+    <test started-at="2022-12-09T15:52:57 IST" name="Test Chrome" finished-at="2022-12-09T15:56:49 IST" duration-ms="232180">
+      <class name="com.qa.testscripts.CleartripBooking">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.qa.testscripts.CleartripBooking@6404f418]" started-at="2022-12-09T15:52:58 IST" name="setup" finished-at="2022-12-09T15:53:48 IST" duration-ms="50219" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://www.cleartrip.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_001(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.testscripts.CleartripBooking@6404f418]" started-at="2022-12-09T15:54:20 IST" name="test_001" data-provider="data" finished-at="2022-12-09T15:55:19 IST" duration-ms="59511" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chennai]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bangalore]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[January]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2023]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_001 -->
+        <test-method signature="test_001(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.testscripts.CleartripBooking@6404f418]" started-at="2022-12-09T15:55:20 IST" name="test_001" data-provider="data" finished-at="2022-12-09T15:55:47 IST" duration-ms="26760" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bangalore]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mumbai]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[January]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2023]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_001 -->
+        <test-method signature="test_001(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.testscripts.CleartripBooking@6404f418]" started-at="2022-12-09T15:55:47 IST" name="test_001" data-provider="data" finished-at="2022-12-09T15:56:16 IST" duration-ms="29051" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mumbai]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Delhi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[January]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2023]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_001 -->
+        <test-method signature="test_001(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.testscripts.CleartripBooking@6404f418]" started-at="2022-12-09T15:56:16 IST" name="test_001" data-provider="data" finished-at="2022-12-09T15:56:42 IST" duration-ms="26655" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Delhi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bangalore]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[January]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2023]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_001 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testscripts.CleartripBooking@6404f418]" started-at="2022-12-09T15:56:42 IST" name="tearDown" finished-at="2022-12-09T15:56:49 IST" duration-ms="6799" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.testscripts.CleartripBooking -->
+    </test> <!-- Test Chrome -->
+  </suite> <!-- Suite -->
+</testng-results>
